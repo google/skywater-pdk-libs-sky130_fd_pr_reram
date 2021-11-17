@@ -1,0 +1,15 @@
+git+https://github.com/SymbiFlow/sphinx_materialdesign_theme.git#egg=sphinx-symbiflow-theme
+docutils
+sphinx
+sphinx-autobuild
+# Verilog domain
+sphinx-verilog-domain
+# Verilog diagrams using Yosys + netlistsvg
+sphinxcontrib-hdl-diagrams
+# Module diagrams
+git+https://github.com/SymbiFlow/symbolator.git#egg=symbolator
+# pycairo
+# vext.gi
+restructuredtext-lint
+rstdoc
+tabulate
