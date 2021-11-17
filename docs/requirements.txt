@@ -8,6 +8,7 @@ sphinx-verilog-domain
 sphinxcontrib-hdl-diagrams
 # Module diagrams
 git+https://github.com/SymbiFlow/symbolator.git#egg=symbolator
+git+https://github.com/hdl/pyHDLparser.git#egg=hdlparse
 # pycairo
 # vext.gi
 restructuredtext-lint
