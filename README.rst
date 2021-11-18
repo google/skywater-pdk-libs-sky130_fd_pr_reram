@@ -4,3 +4,5 @@
     :maxdepth: 1
     :name: sky130-reram-top
     docs/user_guide
+
+v2.0.3
