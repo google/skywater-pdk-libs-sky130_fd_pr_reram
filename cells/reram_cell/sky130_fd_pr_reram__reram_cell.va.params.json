@@ -1,0 +1,70 @@
+{
+  "DEFAULT_area_ox": {
+    "value": 0.1024,
+    "parameter_explanation": "area of TE/BE overlap [meters^2]"
+  },
+  "DEFAULT_Tfilament_0": {
+    "value": 3.3e-9,
+    "parameter_explanation": "initial thickness of conductive filament (at t=0 for transient simulation) [meters]"
+  },
+  "DEFAULT_t_step": {
+    "value": 1.0e-9,
+    "parameter_explanation": "maximum time step [seconds]"
+  },
+  "cal_Tox": {
+    "value": 5.0e-9,
+    "parameter_explanation": "thickness of oxide between TE and BE [meters]"
+  },
+  "cal_Tfilament_max": {
+    "value": 4.9e-9,
+    "parameter_explanation": "maximum thickness of conductive filament (for minimum resistance) [meters]"
+  },
+  "cal_Tfilament_min": {
+    "value": 3.3e-9,
+    "parameter_explanation": "minimum thickness of conductive filament (for maximum resistance) [meters]"
+  },
+  "cal_Eact_generation": {
+    "value": 1.501,
+    "parameter_explanation": "activation energy for vacancy generation [eV]"
+  },
+  "cal_Eact_recombination": {
+    "value": 1.500,
+    "parameter_explanation": "activation energy for vacancy recombination [eV]"
+  },
+  "cal_I_k1": {
+    "value": 6.140e-5,
+    "parameter_explanation": "current calibration parameter [Amps]"
+  },
+  "cal_Tfilament_ref": {
+    "value": 4.7249e-9,
+    "parameter_explanation": "filament thickness calibration parameter [meters]"
+  },
+  "cal_V_ref": {
+    "value": 0.430,
+    "parameter_explanation": "voltage calibration parameter [Volts]"
+  },
+  "cal_velocity_k1": {
+    "value": 150,
+    "parameter_explanation": "velocity calibration parameter [meters/second]"
+  },
+  "cal_gamma_k0": {
+    "value": 16.5,
+    "parameter_explanation": "enhancement factor calibration parameter [unitless]"
+  },
+  "cal_gamma_k1": {
+    "value": -1.25,
+    "parameter_explanation": "enhancement factor calibration parameter [unitless]"
+  },
+  "cal_Temperature_0": {
+    "value": 300,
+    "parameter_explanation": "intial temperature [degrees Kelvin]"
+  },
+  "cal_C_thermal": {
+    "value": 3.1825e-16,
+    "parameter_explanation": "effective thermal capacitance [Joules/Kelvin]"
+  },
+  "cal_tau_thermal": {
+    "value": 0.23e-9,
+    "parameter_explanation": "effective thermal time constant [seconds]"
+  }
+}
