@@ -15,5 +15,6 @@
 * SPDX-License-Identifier: Apache-2.0
 
 
-* Top level circuit sky130_fd_pr_reram__reram_cell
-.end
+.subckt sky130_fd_pr_reram__reram_cell BE TE
+R0 BE TE 0.000000
+.ends

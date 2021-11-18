@@ -21,7 +21,21 @@ VERSION 5.7 ;
 MACRO sky130_fd_pr_reram__reram_cell
   CLASS BLOCK ;
   FOREIGN sky130_fd_pr_reram__reram_cell ;
-  ORIGIN  0.000000  0.000000 ;
-  SIZE  0.005000 BY  0.005000 ;
+  ORIGIN  0.160000  0.160000 ;
+  SIZE  0.320000 BY  0.320000 ;
+  PIN BE
+    PORT
+      LAYER met2 ;
+        RECT -0.130000 -0.160000 0.130000 0.160000 ;
+    END
+  END BE
+  PIN TE
+    PORT
+      LAYER met1 ;
+        RECT -0.160000 -0.130000 0.160000 0.130000 ;
+      LAYER via ;
+        RECT -0.130000 -0.130000 0.130000 0.130000 ;
+    END
+  END TE
 END sky130_fd_pr_reram__reram_cell
 END LIBRARY
