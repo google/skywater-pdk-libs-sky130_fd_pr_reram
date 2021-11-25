@@ -17,7 +17,7 @@
 `include "constants.vams"
 `include "disciplines.vams"
 
-module rram2(TE, BE);
+module sky130_fd_pr_reram__reram_cell(TE, BE);
     inout TE; // top electrode
     inout BE; // bottom electrode
     electrical TE, BE;
