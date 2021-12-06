@@ -1,0 +1,2 @@
+( component-library "symbols" "sch-hier" )
+( source-library (getcwd) )

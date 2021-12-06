@@ -1,0 +1,87 @@
+v 20201211 2
+T 300 400 5 10 0 0 0 0 1
+device=SUB
+P 900 100 800 100 1 0 0
+{
+T 800 150 5 8 0 1 0 0 1
+pinnumber=2
+T 800 150 5 8 0 0 0 0 1
+pinseq=2
+T 1042 203 9 6 1 1 180 2 1
+pinlabel=sout
+T 800 150 5 8 0 1 0 0 1
+pintype=pas
+}
+P 0 100 100 100 1 0 0
+{
+T 100 150 5 8 0 1 0 0 1
+pinnumber=1
+T 100 150 5 8 0 0 0 0 1
+pinseq=1
+T 92 310 9 6 1 1 180 0 1
+pinlabel=precharge
+T 100 150 5 8 0 1 0 0 1
+pintype=pas
+}
+T 200 200 8 10 1 1 0 0 1
+refdes=U?
+T 0 0 8 10 0 1 0 0 1
+pins=2
+T 0 0 8 10 0 1 0 0 1
+class=DISCRETE
+B 100 -1300 700 1700 3 10 1 0 -1 -1 0 -1 -1 -1 -1 -1
+P 911 -262 811 -262 1 0 0
+{
+T 811 -212 5 8 0 1 0 0 1
+pinnumber=2
+T 811 -212 5 8 0 0 0 0 1
+pinseq=2
+T 1008 -165 9 6 1 1 180 2 1
+pinlabel=sa0
+T 811 -212 5 8 0 1 0 0 1
+pintype=pas
+}
+P 915 -603 815 -603 1 0 0
+{
+T 815 -553 5 8 0 1 0 0 1
+pinnumber=2
+T 815 -553 5 8 0 0 0 0 1
+pinseq=2
+T 1011 -552 9 6 1 1 180 2 1
+pinlabel=sa1
+T 815 -553 5 8 0 1 0 0 1
+pintype=pas
+}
+P -9 -271 91 -271 1 0 0
+{
+T 91 -221 5 8 0 1 0 0 1
+pinnumber=1
+T 91 -221 5 8 0 0 0 0 1
+pinseq=1
+T 83 -61 9 6 1 1 180 0 1
+pinlabel=bl
+T 91 -221 5 8 0 1 0 0 1
+pintype=pas
+}
+P -13 -552 87 -552 1 0 0
+{
+T 87 -502 5 8 0 1 0 0 1
+pinnumber=1
+T 87 -502 5 8 0 0 0 0 1
+pinseq=1
+T 79 -342 9 6 1 1 180 0 1
+pinlabel=dbl
+T 87 -502 5 8 0 1 0 0 1
+pintype=pas
+}
+P -12 -876 88 -876 1 0 0
+{
+T 88 -826 5 8 0 1 0 0 1
+pinnumber=1
+T 88 -826 5 8 0 0 0 0 1
+pinseq=1
+T 80 -666 9 6 1 1 180 0 1
+pinlabel=en
+T 88 -826 5 8 0 1 0 0 1
+pintype=pas
+}

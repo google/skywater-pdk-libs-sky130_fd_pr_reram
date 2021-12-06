@@ -1,0 +1,13 @@
+* SPICE Lepton EDA netlister backend
+.lib "$PDK_ROOT/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.model rram2_model rram2 rram2_params.scs
+
+.print TRAN FORMAT=RAW V(VDD) V(0) I(Vsl) V(BL - BE) V(BL) V(WL) V(sl) V(BE)
+.tran 0.01ns 50ns
+VVDD VDD 0 1.8V
+Vbl bl 0 pwl 1ns 0V 10ns 0V 15ns 3V 20ns 0V
+Vsl sl 0 pwl 0ns 0V 30ns 0V 35ns 3V 40ns 0V 50ns 0V
+Vwl wl 0 pwl 0ns 0V 8ns 0V 9ns 1V 21ns 1V 22ns 0V 28ns 0V 29ns 3V 41ns 3V 42ns 0V 50ns 0V
+Xwl BE wl sl 0 sky130_fd_pr__nfet_01v8 l=0.15 w=7.0
+Yrram2 res0 bl BE rram2_model
+.END
