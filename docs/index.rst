@@ -7,3 +7,5 @@ Initial documentation only release.
 
   user_guide
   references
+  background
+  technology_specifications
