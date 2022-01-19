@@ -1,0 +1,9 @@
+Build Xyce Plugin
+buildxyceplugin -o rram2 ../../cells/reram_cell/sky130_fd_pr_reram__reram_cell.va .
+
+extract netlist with lepton:
+lepton-netlist -g spice -o 1T1R.spice 1T1R.sch
+
+Run simluation with Xyze
+Xyce -plugin rram2.so 1T1R.spice
+
