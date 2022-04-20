@@ -1,0 +1,34 @@
+
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* SPDX-License-Identifier: Apache-2.0
+* TODO: Redefine pins as per schematic 
+
+.subckt 4T1R_MUX A B C in0 in1 vddw gndw
+MN0 (A in0 0 0 ) nhv
+MN1 (B in1 0 0 ) nhv
+MN2 (out C 0 0 ) nhv
+MN3 (B WL1 gndw gndw ) nhv
+MP4 (C WLN gndw gndw ) nhv
+MN5 (A WL0 gndw gndw ) nhv
+X0 (A C) rram2 area_ox=0.1024 Tfilament_0=3.3e-9
+X1 (B C) rram2 area_ox=0.1024 Tfilament_0=3.3e-1
+MP0 (B in1 vdd vdd ) phv
+MP1 (A in0 vdd vdd ) phv
+MP2 (B BL1 vddw vddw ) phv
+MP3 (out C vdd vdd ) phv
+MP4 (A BL0 vddw vddw ) phv
+MP5 (C BLN vddw vddw ) phv
+.ends
